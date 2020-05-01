@@ -20,9 +20,8 @@ nav {
 }
 
 .site-navigation {
-  display: block;
-  width: 900px;
-  background-color: #fff;
+  padding-left: 0;
+  font-size: 0;
   margin: 0 auto;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -78,16 +77,19 @@ article:nth-child(2n) {
   margin-right: 0;
   margin-bottom: 135px;
 }
-.load_btn{
+.load_btn {
     display: block;
     margin: 0 auto;
-    margin-top: -15px;
     border: 1px solid #626262;
     padding: 20px 40px;
     background: none;
     cursor: pointer;
+    position: center;
 }
 img{
     width: 420px;
     height: 280px;
+}
+.load_btn :hover {
+  color: blue;
 }
