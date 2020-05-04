@@ -12,11 +12,19 @@ body {
   font-family: "Playfair Display", serif;
   color: #626262;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 30px;
 }
 
 nav {
     background: white;
+}
+.site-navigation li{
+  display: block;
+  list-style: none;
+}
+.social {
+  margin: 0;
+  padding: 0;
 }
 
 .site-navigation {
@@ -53,18 +61,22 @@ nav {
 }
 
 .page-header {
+  margin-bottom: 100px;
   background-color: #f2f2f2;
 }
 
 .social-list {
   list-style: none;
 }
-
+.social-list p{
+  font-size: 14px;
+}
 .social h2 {
   color: #626262;
   line-height: 17px;
 }
-.site-navigation a:hover {
+.site-navigation a:hover,
+.site-navigation a:focus {
   color: blue;
 }
 
@@ -84,9 +96,8 @@ article:nth-child(2n) {
     padding: 20px 40px;
     background: none;
     cursor: pointer;
-    position: center;
 }
-img{
+.img{
     width: 420px;
     height: 280px;
 }
