@@ -33,6 +33,11 @@ body {
   line-height: 30px;
 }
 
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
 
 .social {
   margin: 0;
@@ -40,9 +45,11 @@ body {
 }
 
 .site-navigation {
+  vertical-align: middle;
   padding-left: 0;
   font-size: 0;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   padding-top: 75px;
   padding-bottom: 75px;
   font-size: 14px;
@@ -53,29 +60,20 @@ body {
 
 .site-navigation li {
   display: inline-block;
-  margin-right: 125px;
 }
 
-.site-navigation li:last-child {
-  margin-right: 0;
+.site-navigation li:not(:last-child) {
+  margin-right: 120px;
 }
 
 .site-navigation a {
+  display: inline-block;
   color: #130000;
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 16px;
-}
-.container {
-  width: 900px;
-  margin: 0 auto;
-  padding-top: 25px;
-}
-
-.page-header {
-  margin-bottom: 100px;
-  background-color: #f2f2f2;
+  line-height: 24px;
+  font-size: 14px;
 }
 
 .social-list {
@@ -92,6 +90,11 @@ body {
   color: blue;
 }
 
+.My social style{
+  font-size: 0;
+  margin: 0;
+}
+
 article {
   display: inline-block;
   width: 420px;
@@ -101,6 +104,34 @@ article:nth-child(2n) {
   margin-right: 0;
   margin-bottom: 135px;
 }
+.article:nth-of-type(odd){
+  margin-right: 60px;
+}
+article-images{
+  margin-bottom: 28px;
+}
+.span {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  line-height: 17px;
+  color: #b8b1a2;
+  text-transform:uppercase;
+  margin: 0;
+  margin-bottom: 22px;
+} 
+
+.h3 {
+  font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 20px;
+}
+
+.p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
 .load_btn {
     display: block;
     margin: 0 auto;
@@ -113,6 +144,10 @@ article:nth-child(2n) {
     width: 420px;
     height: 280px;
 }
-.load_btn :hover {
-  color: blue;
+div {
+  width: 900px;
+}
+button:hover,
+button:focus{
+color: blue;
 }
