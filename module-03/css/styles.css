@@ -89,10 +89,11 @@ article {
   display: inline-block;
   width: 420px;
   margin-right: 60px;
+  margin-bottom: 135px;
+
 }
 article:nth-child(2n) {
   margin-right: 0;
-  margin-bottom: 135px;
 }
 .article:nth-of-type(odd){
   margin-right: 60px;
