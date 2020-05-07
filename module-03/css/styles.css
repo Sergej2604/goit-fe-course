@@ -40,16 +40,15 @@ body {
 }
 
 .social {
-  font-size: auto;
+  font-size: 0;
 }
 
 .site-navigation {
   padding-left: 0;
   margin: 0;
-
   padding-top: 75px;
   padding-bottom: 75px;
-  font-size: 14px;
+  font-size: 0;
   list-style: none;
   text-align: center;
 }
@@ -86,16 +85,10 @@ body {
   color: blue;
 }
 
-.My social style{
-  font-size: 0;
-  margin: 0;
-}
-
 article {
   display: inline-block;
   width: 420px;
   margin-right: 60px;
-  margin: +16px;
 }
 article:nth-child(2n) {
   margin-right: 0;
@@ -129,6 +122,7 @@ article-images{
 }
 
 .load_btn {
+  font-size: 14px;
     display: block;
     margin: 0 auto;
     border: 1px solid #626262;
@@ -136,14 +130,27 @@ article-images{
     background: none;
     cursor: pointer;
 }
-.img{
+img{
     width: 420px;
     height: 280px;
 }
 div {
   width: 900px;
 }
+
 button:hover,
 button:focus{
 color: blue;
+}
+.serg-title {
+  font-size: 14px;
+}
+h3.main-title {
+margin: 0;
+margin-bottom: 20px;
+font-size: 14px;
+}
+p.main-content {
+  margin: 0;
+  font-size: 14px;
 }
