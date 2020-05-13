@@ -120,13 +120,13 @@ a {
   float: left;
   width: 255px;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   list-style: none;
 }
-
-.products-list-item:not(:nth-child(even))
-.news-list-item:not(:nth-child(odd)) {
-  margin-right: 30px;
+.product-list-item:nth-last-child(4n)
+.products-list-item:nth-last-child(n+4) {
+  margin-right: 0px;
+  margin-bottom: 0;
 }
 
 
@@ -141,7 +141,7 @@ a {
 }
 .product-list-item:hover .category,
 .product-list-item:focus .category {
-  color: #1abcc9;
+ background: #1abcc9;
 }
 
 .product-name {
