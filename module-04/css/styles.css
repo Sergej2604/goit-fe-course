@@ -36,7 +36,7 @@ body {
   clear: both;
 }
 .container {
-width: 1110px;
+width: 1111px;
 margin: 0 auto;
 }
 .logo {
@@ -112,23 +112,25 @@ a {
   content: '';
   margin: 19px auto 0;
 }
-.product-list {
+.products-list {
   padding: 0;
 }
 
 .product-list-item {
+  display: block;
   float: left;
   width: 255px;
   padding: 0;
-  margin-bottom: 0px;
   list-style: none;
+  margin-right: 22.5px;
+  margin-bottom: 30px;
 }
-.product-list-item:nth-last-child(4n)
-.products-list-item:nth-last-child(n+4) {
-  margin-right: 0px;
-  margin-bottom: 0;
+.product-list-item:nth-child(4n)) {
+  margin-right: 0;
 }
-
+.product-list-item:nth-last-child(-n+4) {
+ margin-bottom: 0;
+}
 
 .product-list-item img {
   display: block;
@@ -201,7 +203,7 @@ a {
     font-family: "OpenSans";
     font-size: 14px;
     font-weight: 400;
-    line-height: 13px; 
+    line-height: 22px; 
   }
   .news-list-item {
     float: left;
